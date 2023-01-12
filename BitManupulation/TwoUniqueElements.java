@@ -14,6 +14,10 @@ public class TwoUniqueElements {
 			A[i]=scan.nextInt();
 			//System.out.println(A[i]);
 		}
+		int[] res=twoUniqueElements(A); 
+              for(int i=0;i<res.length;i++) {
+            	  System.out.println(res[i]);
+              }
                    
             System.out.println(twoUniqueElements(A));
 	}//[1, 2, 3, 1, 2, 4]
